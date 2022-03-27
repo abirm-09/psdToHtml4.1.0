@@ -1,11 +1,11 @@
-var options = {
+let options = {
     strings: ['Full stack Web Developer.', 'Mern stack Developer.', 'WordPress theme developer.', 'Social worker.'],
     typeSpeed: 50,
     backSpeed: 50,
-    loop: true
+    loop: true,
 };
 
-var typed = new Typed('.typed', options);
+let typed = new Typed('.typed', options);
 
 $(document).ready(function () {
     $(window).scroll(function () {

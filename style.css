@@ -75,7 +75,23 @@ body {
 }
 
 .title {
+    position: relative;
     font-size: 30px;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    left: 0;
+    bottom: -15px;
+    background: var(--cbg-color);
+    display: inline-block;
+}
+
+.lb-white::before {
+    background: #fff;
 }
 
 .a_my_name {
@@ -115,4 +131,65 @@ body {
 
 .sk_right {
     background: #e9e9e9;
+}
+
+
+.bg-progress {
+    background-color: var(--cbg-color) !important;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.text-progress {
+    color: var(--cbg-color);
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.bg-mp {
+    background: #b5dff0;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.bg-my {
+    background: var(--cbg-color);
+}
+
+.wf_text {
+    font-size: 18px;
+}
+
+.progress_height {
+    height: 8px;
+}
+
+.vo_iframe {
+    width: 90%;
+    height: 250px;
+}
+
+@media screen and (min-width:768px) {
+    .skprogress_right {
+        margin-top: 80px;
+    }
+
+    .wd_text {
+        font-size: 1rem;
+    }
+
+    .vo_iframe {
+        width: 75%;
+        height: 500px;
+    }
 }
