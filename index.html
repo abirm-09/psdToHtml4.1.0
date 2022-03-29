@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- google font  -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <!-- favicon  -->
     <link rel="fav icon" href="media/images/faicon/favicon.png">
@@ -23,7 +23,9 @@
     <title>4-Th psd to html</title>
 </head>
 
-<body>
+<body onload="preloaderF()">
+    <div id="preloaderBody" class="w-100">
+    </div>
     <!-- Header section starts here  -->
     <header id="maain_header" class="maain_header">
         <div class="inner_header py-2 navbarByMe">
@@ -39,10 +41,13 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active current_page" id="current_page" aria-current="page"
-                                    href="#">Home</a>
+                                    href="#maain_header">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#aboutme">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skilssec" tabindex="-1" aria-disabled="true">Skils</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -50,17 +55,17 @@
                                     Work
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    <li><a class="dropdown-item" href="#">This is practise</a></li>
+                                    <li><a class="dropdown-item" href="#workingdes">Working Description</a></li>
+                                    <li><a class="dropdown-item" href="#projects_case">Projects</a></li>
+                                    <li><a class="dropdown-item disabled" href="#">Disabled link</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Process</a>
+                                <a class="nav-link" href="#work_process" tabindex="-1" aria-disabled="true">Process</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Services</a>
+                                <a class="nav-link" href="#mainSkilSectio" tabindex="-1"
+                                    aria-disabled="true">Services</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Testimonial</a>
@@ -89,7 +94,7 @@
         </div>
     </header>
     <!-- Header section ends here  -->
-    <section id="aboutme" class="py-3">
+    <section id="aboutme" class="py-5">
         <div class="innerabout container py-5">
             <h3 class="title text-start mb-5 fw-bold">About me</h3>
             <div class="my-4">
@@ -107,7 +112,7 @@
         </div>
     </section>
     <!-- This is skils section starts  -->
-    <section id="skilssec" class="pt-3">
+    <section id="skilssec" class="pt-5">
         <!-- <div class="innerskil container">
             <h3 class="title text-center mb-3 fw-bold">My Skils</h3>
         </div> -->
@@ -115,7 +120,7 @@
             <div class="col-md-6 sk_left">
                 <div class="innersk innersk_left d-block mx-auto mx-md-0 float-md-end">
                     <div class="skprogress_left p-3 p-md-5">
-                        <h3 class="title text-start mb-5 fw-bold">My Skils</h3>
+                        <h3 class="title text-start mb-5 fw-bold">Languages Skils</h3>
                         <div class="html_progress mb-4">
                             <h4 class="text-dark">Html <span class="ms-5">95%</span></h4>
                             <div class="progress progress_height">
@@ -208,7 +213,7 @@
     <!-- This is skils section ends  -->
     <!-- This is working description starts  -->
     <section id="workingdes" class="bg-my py-5">
-        <div class="inner_w_des container">
+        <div class="inner_w_des container pt-5">
             <h3 class="title text-start mb-5 fw-bold lb-white">Working Description</h3>
             <div class="row justify-content-start">
                 <!-- row 1 starts here  -->
@@ -256,7 +261,7 @@
     <!-- This is work description ends -->
     <section id="projects_case" class="py-5 bg-light">
         <div class="inner_p_case container">
-            <h3 class="title text-start mb-5 fw-bold">Projects</h3>
+            <h3 class="title text-start mb-5 fw-bold pt-5">Projects</h3>
             <div class="projects_tab">
                 <div class="tab_btns">
                     <ul class="nav nav-pills justify-content-center">
@@ -346,23 +351,94 @@
     <!-- This is work Process Starts -->
     <section id="work_process" class="py-5">
         <div class="inner_workprocess container">
-            <h3 class="title text-start mb-5 fw-bold">My Work process</h3>
+            <h3 class="title text-start mb-5 fw-bold pt-5">My Work process</h3>
             <p class="text-center w-75 d-block mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
                 sint, quam a
                 vitae
                 adipisci ipsum maiores
                 reprehenderit et voluptate dicta deserunt quidem amet quibusdam, omnis exercitationem culpa expedita
                 veritatis doloribus vero illum quo debitis reiciendis, velo.</p>
-            <iframe class="vo_iframe border border-3 rounded-3 d-block mx-auto bg-light"
+            <!-- <iframe class="vo_iframe border border-3 rounded-3 d-block mx-auto bg-light"
                 src="https://www.youtube.com/embed/QyRRrKQP7fo" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
 
-            </iframe>
+            </iframe> -->
+            <iframe src="" class="vo_iframe border border-2 d-block mx-auto" frameborder="0"></iframe>
         </div>
     </section>
     <!-- This is work Process ends -->
-
+    <!-- Main skils sectio starts here  -->
+    <section id="mainSkilSectio" class="bg-light py-5">
+        <div class="inner_main_skil container">
+            <h3 class="title text-start mb-5 fw-bold pt-5">My Services</h3>
+            <div class="all_skil_Content">
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-3">
+                        <div class="desingsk p-1 card c_width">
+                            <i class="fa-solid fa-gem card-img-top text-center fs-1"></i>
+                            <div class="card-body">
+                                <div class="card-title text-dark text-center">ui / ux design</div>
+                                <p class="card-text c_font text-another text-center">
+                                    Be set fourth land god darkness
+                                    make it wherein own
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="desingsk p-1 card c_width">
+                            <i class="fa-solid fa-code card-img-top text-center fs-1"></i>
+                            <div class="card-body">
+                                <div class="card-title text-dark text-center">web development</div>
+                                <p class="card-text c_font text-another text-center">
+                                    A she'd them bring void moving
+                                    third she'd kind fill
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="desingsk p-1 card c_width">
+                            <i class="fa-solid fa-mobile-screen-button card-img-top text-center fs-1"></i>
+                            <div class="card-body">
+                                <div class="card-title text-dark text-center">app / mobile</div>
+                                <p class="card-text c_font text-another text-center">
+                                    Dominion man second spirit he,
+                                    earth they're creeping
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="desingsk p-1 card c_width">
+                            <i class="fa-solid fa-dice-d20 card-img-top text-center fs-1"></i>
+                            <div class="card-body">
+                                <div class="card-title text-dark text-center">game developmebt</div>
+                                <p class="card-text c_font text-another text-center">
+                                    Morning his saying moveth it
+                                    multiply appear life be
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="desingsk p-1 card c_width">
+                            <i class="fa-solid fa-magnifying-glass card-img-top text-center fs-1"></i>
+                            <div class="card-body">
+                                <div class="card-title text-dark text-center">SEO / marketing</div>
+                                <p class="card-text c_font text-another text-center">
+                                    Give won't after land fill creeping
+                                    meat you, may
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main skils sectio ends here  -->
 
 
 

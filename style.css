@@ -1,5 +1,14 @@
+#preloaderBody {
+    position: fixed;
+    background: var(--cbg-color) url(media/images/preloader/bodyPreloader.gif) center no-repeat;
+    background-size: 50% 50%;
+    height: 100vh;
+    z-index: 9999999;
+}
+
 :root {
     --cbg-color: #10c9c3;
+    --another-color: #787878;
 }
 
 .navbar a img {
@@ -177,6 +186,25 @@ body {
 .vo_iframe {
     width: 90%;
     height: 250px;
+}
+
+.all_skil_Content .card {
+    background: none;
+    border: none;
+}
+
+.card-text.c_font {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bg-another {
+    background-color: var(--another-color);
+}
+
+.text-another {
+    color: var(--another-color);
 }
 
 @media screen and (min-width:768px) {

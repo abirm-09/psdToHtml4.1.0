@@ -1,3 +1,9 @@
+const preloaderDesing = document.getElementById("preloaderBody");
+
+
+function preloaderF() {
+    preloaderDesing.style.display = "none"
+};
 let options = {
     strings: ['Full stack Web Developer.', 'Mern stack Developer.', 'WordPress theme developer.', 'Social worker.'],
     typeSpeed: 50,
