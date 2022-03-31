@@ -14,6 +14,7 @@ let options = {
 let typed = new Typed('.typed', options);
 
 $(document).ready(function () {
+    $('.slider').bxSlider();
     $(window).scroll(function () {
         if (this.scrollY > 20) {
             $('.navbarByMe').addClass("sticky");
