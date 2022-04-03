@@ -13,15 +13,14 @@
 :root {
     --cbg-color: #10c9c3;
     --another-color: #787878;
+    --skill-left: #f8f9f9;
+    --sk-right: #e9e9e9;
 }
 
 .navbar a img {
     width: 150px;
 }
 
-body {
-    overflow-x: hidden;
-}
 
 .main_nav ul li a {
     font-family: 'Montserrat', sans-serif;
@@ -133,18 +132,35 @@ body {
     font-size: 1rem;
 }
 
-.sk_left {
-    background: #f8f9f9;
+
+/*====================================
+        Another skill section
+======================================*/
+/* .skill_sec {
+    position: relative;
+    background: red;
+    width: 100%;
+    z-index: 2;
 }
 
-.innersk {
-    max-width: 570px;
-    width: 96%;
-}
+.skill_sec::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -100%;
+    background: green;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} */
 
-.sk_right {
-    background: #e9e9e9;
-}
+
+
+/*====================================
+        Another skill section ends
+======================================*/
+
+
 
 
 .bg-progress {
@@ -215,6 +231,29 @@ body {
     color: var(--another-color);
 }
 
+/* ===================================
+            Progress bar css
+======================================*/
+.main_content_left {
+    flex: 0 1 100%;
+    background: var(--skill-left);
+
+}
+
+.main_content_right {
+    flex: 0 1 100%;
+    background: var(--sk-right);
+}
+
+.max_left_side,
+.max_right_side {
+    max-width: 570px;
+    width: 96%;
+}
+
+/* ===================================
+            Progress bar css end
+======================================*/
 .bx-controls-direction {
     display: none;
 }
@@ -296,8 +335,19 @@ textarea {
 }
 
 @media screen and (min-width:768px) {
-    .skprogress_right {
-        margin-top: 80px;
+    .main_content_left {
+        flex: 0 1 50%;
+
+    }
+
+    .main_content_right {
+        flex: 0 1 50%;
+    }
+
+    .max_left_side,
+    .max_right_side {
+        max-width: 570px;
+        width: 96%;
     }
 
     .wd_text {

@@ -1,0 +1,42 @@
+<div class="html_progress mb-4">
+                            <h4 class="text-dark">Html <span class="ms-5">95%</span></h4>
+                            <div class="progress progress_height">
+                                <div class="progress-bar progress-bar-striped w-95 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                        <div class="css_progress mb-4">
+                            <h4 class="text-dark">Css <span class="ms-5">90%</span></h4>
+                            <div class="progress progress_height">
+                                <div class="progress-bar progress-bar-striped w-90 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                        <div class="bootststrap_progress mb-4">
+                            <h4 class="text-dark">Bootstrap <span class="ms-5">95%</span></h4>
+                            <div class="progress progress_height">
+                                <div class="progress-bar progress-bar-striped w-95 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                        <div class="javascript_progress mb-4">
+                            <h4 class="text-dark">Javascript <span class="ms-5">85%</span></h4>
+                            <div class="progress progress_height">
+                                <div class="progress-bar progress-bar-striped w-85 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                        <div class="javascript_progress mb-4">
+                            <h4 class="text-dark">React js <span class="ms-5">75</span>%</span></h4>
+                            <div class="progress progress_height">
+                                <div class="progress-bar progress-bar-striped w-75 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                        <div class="javascript_progress mb-4">
+                            <h4 class="text-dark">Jquery <span class="ms-5">80</span>%</span></h4>
+                            <div class="progress progress_height">
+                                <div class="progress-bar progress-bar-striped w-80 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>

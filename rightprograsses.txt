@@ -1,0 +1,35 @@
+<div class="javascript_progress mb-4">
+                            <h4 class="text-dark">Node js <span class="ms-5">80%</span></h4>
+                            <div class="progress bg-mp progress_height">
+                                <div class="progress-bar progress-bar-striped w-80 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                        <div class="javascript_progress mb-4">
+                            <h4 class="text-dark">Express js <span class="ms-5">75%</span></h4>
+                            <div class="progress bg-mp progress_height">
+                                <div class="progress-bar progress-bar-striped w-75 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                        <div class="javascript_progress mb-4">
+                            <h4 class="text-dark">PHP <span class="ms-5">75%</span></h4>
+                            <div class="progress bg-mp progress_height">
+                                <div class="progress-bar progress-bar-striped w-75 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                        <div class="javascript_progress mb-4">
+                            <h4 class="text-dark">Mongo DB <span class="ms-5">95%</span></h4>
+                            <div class="progress bg-mp progress_height">
+                                <div class="progress-bar progress-bar-striped w-95 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
+                        <div class="mysql_progress mb-4">
+                            <h4 class="text-dark">Mysql <span class="ms-5">90%</span></h4>
+                            <div class="progress bg-mp progress_height">
+                                <div class="progress-bar progress-bar-striped w-90 progress-bar-animated bg-progress"
+                                    aria-valuemax="100" aria-valuemin="75" aria-valuenow="75"></div>
+                            </div>
+                        </div>
